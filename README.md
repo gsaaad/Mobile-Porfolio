@@ -19,12 +19,13 @@
 ### Description
 
 - This project's aim is to create a mobile friendly portfolio that has easy navigation and simple interactions with a designated theme
+- This project allows potential employers and co-workers to see a quick and simple overview of the experince and skillsets I have developed along the way
 - Used best practise workflow to build Portfolio from Mobile -> Tablet -> Larger screens and adjusting Media Qurries along the way
 
 ### Built-with
 
 - HTML
-- CSS
+- CSS [+Media Querries(Phone), (Tablet), (Large Tablets), (Large Screens and PC's)]
 
 ### Website
 
