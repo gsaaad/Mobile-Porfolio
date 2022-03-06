@@ -18,7 +18,8 @@
 
 ### Description
 
-- This project's aim is to create a mobile friendly portfolio website that can has easy navigation and simple CTA
+- This project's aim is to create a mobile friendly portfolio that has easy navigation and simple interactions with a designated theme
+- Used best practise workflow to build Portfolio from Mobile -> Tablet -> Larger screens and adjusting Media Qurries along the way
 
 ### Built-with
 
@@ -32,4 +33,5 @@
 ### Feedback
 
 - Message me back and let me know if you have any feedback or inquiries.
-- Thanks for checking out the post!!
+- This will be updated frequently as Experience and Technology advances
+- Thanks for checking out the post
