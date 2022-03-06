@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --dblue-color: #05192c;
+  --tan-color: #d0ae8b;
+  --plat-color: #e8e4e2;
+  --midblue-color: #73ccd8;
+  --maxblue-color: #197999;
+  overflow: auto;
+}
+
+body {
+  color: var(--tan-color);
+  background-color: #05192c;
+}
+nav {
+  display: flex;
+  background-color: var(--midblue-color);
+
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > img {
+  height: 90px;
+  width: 120px;
+}
+
+nav > a {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #05192c;
+}
+.profile-img {
+  float: right;
+  border-radius: 25%;
+  margin: 50px 10px;
+}
+.about-me {
+  padding: 20px;
+  font-size: 25px;
+}
+.Card {
+  font-size: 27px;
+  padding: 5px;
+  /* margin: 20px; */
+  border-left: 5px solid var(--midblue-color);
+  border-top: 5px solid var(--maxblue-color);
+}
+.Card h2 {
+  margin: 30px 25px;
+  text-decoration: underline;
+  text-decoration-thickness: 7px;
+  text-decoration-color: var(--plat-color);
+}
+
+.Card h3 {
+  color: var(--midblue-color);
+  margin: 25px 0px;
+}
+
+.Card h2 em {
+  color: var(--midblue-color);
+}
+.main-project {
+  width: 100%;
+  height: 750px;
+}
+.projects h4 {
+  margin: 25px 0px;
+  text-decoration: underline;
+  text-decoration-color: #73ccd8;
+}
+.projects img {
+  width: 100%;
+  height: 250px;
+}
+
+@media screen and (min-width: 575px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 980px) {
+}
