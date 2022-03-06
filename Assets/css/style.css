@@ -13,11 +13,11 @@
 body {
   color: var(--tan-color);
   background-color: #05192c;
+  border-bottom: 5px solid var(--plat-color);
 }
 nav {
   display: flex;
   background-color: var(--midblue-color);
-
   height: 90px;
   align-items: center;
   justify-content: space-between;
@@ -27,8 +27,8 @@ nav > img {
   width: 120px;
 }
 
-nav > a {
-  font-size: 20px;
+nav a {
+  font-size: 23px;
   font-weight: bolder;
   margin-right: 15px;
   text-decoration: none;
@@ -46,11 +46,13 @@ nav > a {
 .Card {
   font-size: 27px;
   padding: 5px;
-  /* margin: 20px; */
   border-left: 5px solid var(--midblue-color);
   border-top: 5px solid var(--maxblue-color);
+  border-bottom: 5px solid var(--plat-color);
+  margin-top: 20px;
 }
-.Card h2 {
+.Card h1,
+h2 {
   margin: 30px 25px;
   text-decoration: underline;
   text-decoration-thickness: 7px;
@@ -60,10 +62,12 @@ nav > a {
 .Card h3 {
   color: var(--midblue-color);
   margin: 30px 25px;
+  font-size: 32px;
 }
 
-.Card h2 em {
+.Card h1 em {
   color: var(--midblue-color);
+  font-size: 50px;
 }
 .main-project {
   width: 100%;
@@ -80,14 +84,13 @@ nav > a {
 }
 .connect {
   text-align: center;
-
   margin: 20px 175px;
   border-left: 8px solid var(--maxblue-color);
   border-right: 8px solid var(--midblue-color);
 }
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 li a {
   text-decoration: none;
@@ -99,9 +102,62 @@ li a {
 li {
   margin-top: 15px;
 }
-@media screen and (min-width: 575px) {
-}
+
 @media screen and (min-width: 768px) {
+  nav a {
+    margin-right: 75px;
+  }
+  .profile-img {
+    width: 40%;
+  }
+  .Card h2,
+  h3 {
+    font-size: 40px;
+  }
+
+  .about-me {
+    font-size: 27px;
+  }
+  .main-project {
+    height: 850px;
+  }
+  .projects {
+    font-size: 35px;
+  }
+  .projects img {
+    width: 100%;
+    height: 350px;
+  }
 }
 @media screen and (min-width: 980px) {
+  nav a {
+    margin-right: 100px;
+    font-size: 30px;
+  }
+  .Card h2 {
+    font-size: 55px;
+  }
+  .about-me p {
+    font-size: 30px;
+  }
+  .profile-img {
+    width: 30%;
+  }
+  li a {
+    font-size: 40px;
+  }
+  .Card h3 {
+    font-size: 45px;
+  }
+  .projects h4 {
+    margin-left: 20px;
+    font-size: 35px;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+  .projects a img:hover {
+    opacity: 50%;
+  }
 }
