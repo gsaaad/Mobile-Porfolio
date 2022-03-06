@@ -22,7 +22,7 @@
 
 ### Built-with
 
-- HTML 5
+- HTML5
 - CSS
 
 ### Website
