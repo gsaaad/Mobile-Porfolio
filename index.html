@@ -9,7 +9,10 @@
     <link rel="icon" type="image/png" href="./Assets/GS.png" />
     <title>GSaaad Portfolio</title>
   </head>
+  <!-- End of Header portion, added most of necessary foundation, including Title, icon, Style CSS, Viewport -->
+
   <body>
+    <!-- Navbar for Personal, Projects and Contact me sections -->
     <nav>
       <img
         src="./Assets/GS.png"
@@ -21,11 +24,7 @@
       <a href="#contact-me">Contact Me</a>
     </nav>
 
-    <img
-      src="./Assets/Avatar_Gsaaad.jpg"
-      alt="Avatar headshot of George Saaad"
-      class="profile-img"
-    />
+    <!-- ID added to target this specific element in navigation-->
 
     <section id="about-me" class="Card">
       <h1>
@@ -34,20 +33,30 @@
           <em> GEORGE SAAD </em>
         </div>
       </h1>
-
+      <!-- divided each section as Article, to group similar content -->
       <article class="about-me">
-        <p>
-          Ambitious, hard working and high performance individual, striving to
-          become Full Stack Developer.
-        </p>
-        <br />
-        <p>
-          Experienced in HTML, CSS, React, MongoDB, SQL, Python, R, Javascript,
-          Bootstrap, Photoshop and Figma.
-        </p>
+        <div>
+          <h3>
+            Ambitious, hard working and high performance individual, striving to
+            become Full Stack Developer.
+          </h3>
+          <br />
+          <h3>
+            Experienced in HTML, CSS, React, MongoDB, SQL, Python, R,
+            Javascript, Bootstrap, Photoshop and Figma.
+          </h3>
+        </div>
+        <!-- profile image, with width 1000, fit most of the Media Querries -->
+        <img
+          src="./Assets/Avatar_Gsaaad.jpg"
+          alt="Avatar headshot of George Saaad"
+          style="width: 1000px"
+          class="profile-img"
+        />
       </article>
     </section>
-
+    <!-- Main card, showing projects. Main project was sized up for Criteria, others were purposely designed smaller -->
+    <!-- ID added to target this specific element in navigation-->
     <section id="projects" class="Card">
       <h2>PROJECTS</h2>
       <h3>Horiseon Website for SEO Optimization</h3>
@@ -78,6 +87,7 @@
           />
         </a>
       </article>
+
       <article class="projects">
         <h4>Food application</h4>
         <p class="notes">[UNDERCONSTRUCTION!~, LINK PLACEHOLDER IN PLACE]</p>
@@ -100,6 +110,7 @@
       </article>
       <article class="projects">
         <h4>Robots fighting application</h4>
+        <!-- adding visual notes for Grader to check info here -->
         <p class="notes">[UNDERCONSTRUCTION!~, LINK PLACEHOLDER IN PLACE]</p>
         <a href="#" target="_blank" rel="nofollow">
           <img
@@ -109,12 +120,15 @@
         </a>
       </article>
     </section>
-    <section id="contact-me" class="Card">
+    <!-- end of page, footer of contact me through social media! -->
+    <!-- ID added to target this specific element in navigation-->
+
+    <footer id="contact-me" class="Card">
       <h2>Contact</h2>
       <h3>Let's Connect and build together😎</h3>
       <p class="notes">
         [Only Github, LinkedIn, and Email links is added, the rest have
-        placeholder..fUNDERCONSTRUCTION!~
+        placeholder..for now..
       </p>
 
       <article>
@@ -189,6 +203,6 @@
           </li>
         </ul>
       </article>
-    </section>
+    </footer>
   </body>
 </html>
