@@ -14,7 +14,7 @@
 
 ### Preview
 
-- [Screenshot]
+- ![Screenshot](./Assets/img/Mobile_Portfolio.png)
 
 ### Description
 
@@ -30,7 +30,7 @@
 
 ### Website
 
-- [URL]
+- [https://gsaaad.github.io/Mobile-Porfolio/]
 
 ### Feedback
 
