@@ -89,6 +89,7 @@ h2 {
   height: 375px;
   width: 100%;
 }
+
 .main-project:hover {
   opacity: 100%;
 }
@@ -101,7 +102,7 @@ h2 {
 .connect {
   border-left: 8px solid var(--maxblue-color);
   border-right: 8px solid var(--midblue-color);
-  margin: 20px 175px;
+  margin: 1.75rem 1.75rem;
   text-align: center;
 }
 .icon {
