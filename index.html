@@ -5,62 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
     <meta name="author" content="Gsaaad" />
     <meta name="description" content="Mobile-Friendly Portfolio" />
-    <script
-      src="https://kit.fontawesome.com/d60d82f7e2.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./Assets/css/style.css" />
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./Assets/css/style.dev.css" />
     <link rel="icon" type="image/png" href="./Assets/img/GS.png" />
+
     <title>GSaaad Portfolio</title>
   </head>
   <!-- End of Header portion, added most of necessary foundation, including Title, icon, Style CSS, Viewport -->
-
-  <body>
-    <!-- Navbar for Personal, Projects and Contact me sections -->
-    <nav>
+  <header>
+    <nav
+      class="flex text-white bg-gradient-to-r from-blue-200 via-blue-300 to-cyan-300 justify-between items-center text-lg"
+    >
       <img
         src="./Assets/img/GS.png"
         alt="Logo design of letters G and S representing the author's initials"
+        style="height: 4rem; width: 5rem"
+        class="z-0"
       />
 
       <a href="#about-me">About Me</a>
+      <span class="flex h-3 w-3">
+        <span
+          class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-200 opacity-75"
+        ></span>
+        <span
+          class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"
+        ></span>
+      </span>
+      <i class="fa-brands fa-buffer"></i>
       <a href="#projects">Projects</a>
-      <a href="#contact-me">Contact Me</a>
+      <i class="fa-brands fa-buffer"></i>
+      <a href="#contact-me" class="mr-4">Contact Me</a>
     </nav>
+  </header>
+  <body class="bg-zinc-600">
+    <!-- Navbar for Personal, Projects and Contact me sections -->
 
     <!-- ID added to target this specific element in navigation-->
 
-    <section id="about-me" class="Card">
-      <h1>
+    <section
+      id="about-me"
+      class="border-b-2 border-t-2 mb-8 border-sky-300 bg-gradient-to-b from-zinc-100 via-blue-900 to-indigo-700"
+    >
+      <h1 class="text-2xl text-gray-600 ml-2">
         HELLO! MY NAME IS
         <div>
-          <em> GEORGE SAAD </em>
+          <em class="text-4xl text-cyan-400"> GEORGE SAAD </em>
         </div>
       </h1>
       <!-- divided each section as Article, to group similar content -->
-      <article class="about-me">
-        <div>
-          <h3>
+      <article class="ml-2">
+        <div class="flex">
+          <img
+            src="./Assets/img/Avatar_Gsaaad.jpg"
+            alt="Avatar headshot of George Saaad"
+            style="height: 40%; width: 40%; border-radius: 25%"
+            class="border-4 border-double border-cyan-300 drop-shadow-2xl"
+          />
+          <h3 class="text-sky-400 ml-4">
             Ambitious, hard working and high performance individual, striving to
-            become Full Stack Developer.
+            become Full Stack Developer. <br />
+            Experienced in HTML5, CSS, BootStrap, Javascript, TailWind CSS
           </h3>
-          <br />
-          <h3>Experienced in HTML, CSS, BootStrap, Javascript</h3>
         </div>
         <!-- profile image, with width 1000, fit most of the Media Querries -->
-        <img
-          src="./Assets/img/Avatar_Gsaaad.jpg"
-          alt="Avatar headshot of George Saaad"
-          style="width: 1000px"
-          class="profile-img"
-        />
       </article>
     </section>
     <!-- Main card, showing projects. Main project was sized up for Criteria, others were purposely designed smaller -->
     <!-- ID added to target this specific element in navigation-->
-    <section id="projects" class="Card">
-      <h2>PROJECTS</h2>
-      <h3>Horiseon Website for SEO Optimization</h3>
+    <section
+      id="projects"
+      class="border-b-2 border-t-2 mb-8 border-sky-300 bg-gradient-to-b from-zinc-100 via-blue-900 to-teal-700 p-2"
+    >
+      <h2
+        class="text-2xl text-gray-600 ml-2 border-4 border-double border-cyan-800 w-1/3 bg-sky-200"
+      >
+        PROJECTS
+      </h2>
+      <h3 class="text-4xl text-cyan-400">
+        Horiseon Website for SEO Optimization
+      </h3>
 
       <a
         href="https://gsaaad.github.io/Horiseon_SocialSolutionServices/"
@@ -68,13 +99,16 @@
         rel="nofollow"
       >
         <img
-          class="main-project"
           src="./Assets/img/Project_1.png"
           alt="Author of website displaying their main project, they are working on he Horiseon Website"
         />
       </a>
-      <h3>Other Projects in the making!</h3>
-      <article class="projects">
+      <h3
+        class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-1/2 bg-sky-200"
+      >
+        Other Projects in the making!
+      </h3>
+      <article>
         <h4>Run Buddy Website</h4>
 
         <a
@@ -89,7 +123,7 @@
         </a>
       </article>
 
-      <article class="projects">
+      <article>
         <h4>DineIn</h4>
 
         <a
@@ -103,7 +137,7 @@
           />
         </a>
       </article>
-      <article class="projects">
+      <article>
         <h4>Map application</h4>
 
         <a href="#" target="_blank" rel="nofollow">
@@ -113,7 +147,7 @@
           />
         </a>
       </article>
-      <article class="projects">
+      <article>
         <h4>Robots fighting application</h4>
 
         <a href="#" target="_blank" rel="nofollow">
@@ -128,7 +162,7 @@
 
     <!-- ID added to target this specific element in navigation-->
 
-    <footer id="contact-me" class="Card">
+    <footer id="contact-me">
       <h2>Contact</h2>
       <h3>Let's Connect and build together😎</h3>
 
@@ -136,41 +170,25 @@
         <ul class="connect">
           <li>
             <a href="https://github.com/gsaaad" target="_blank" rel="nofollow">
-              <img
-                src="./Assets/img/github-icon.png"
-                alt="Github Icon"
-                class="icon"
-              />
+              <img src="./Assets/img/github-icon.png" alt="Github Icon" />
               Github</a
             >
           </li>
           <li>
             <a href="#" target="_blank" rel="nofollow">
-              <img
-                src="./Assets/img/twitter-icon.png"
-                alt="Twitter Icon"
-                class="icon"
-              />
+              <img src="./Assets/img/twitter-icon.png" alt="Twitter Icon" />
               Twitter</a
             >
           </li>
           <li>
             <a href="#" target="_blank" rel="nofollow">
-              <img
-                src="./Assets/img/facebook-icon.png"
-                alt="Facebook icon"
-                class="icon"
-              />
+              <img src="./Assets/img/facebook-icon.png" alt="Facebook icon" />
               Facebook</a
             >
           </li>
           <li>
             <a href="#" target="_blank" rel="nofollow">
-              <img
-                src="./Assets/img/resume-icon.png"
-                alt="portfolio icon"
-                class="icon"
-              />
+              <img src="./Assets/img/resume-icon.png" alt="portfolio icon" />
               Portfolio</a
             >
           </li>
@@ -180,11 +198,7 @@
               target="_blank"
               rel="nofollow"
             >
-              <img
-                src="./Assets/img/email-icon.png"
-                alt="Email icon"
-                class="icon"
-              />
+              <img src="./Assets/img/email-icon.png" alt="Email icon" />
               Email</a
             >
           </li>
@@ -194,16 +208,13 @@
               target="_blank"
               rel="nofollow"
             >
-              <img
-                src="./Assets/img/linkedin-icon.png"
-                alt="Email icon"
-                class="icon"
-              />
+              <img src="./Assets/img/linkedin-icon.png" alt="Email icon" />
               LinkedIn</a
             >
           </li>
         </ul>
       </article>
     </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+
   padding: 0;
   --dblue-color: #05192c;
   --midblue-color: #73ccd8;
@@ -13,38 +13,33 @@
 
 body {
   color: var(--tan-color);
-  background-color: #05192c;
   border-bottom: 5px solid var(--plat-color);
+  margin: 2rem;
 }
 nav {
   align-items: center;
   background-color: var(--midblue-color);
   display: flex;
-  height: 90px;
+  height: 5rem;
   justify-content: space-between;
 }
 nav > img {
-  height: 90px;
-  width: 120px;
+  height: 5rem;
+  width: 5rem;
 }
 
 nav a {
   color: #05192c;
-  font-size: 23px;
+  font-size: 17px;
   font-weight: bolder;
-  margin-right: 15px;
+  margin-right: 10px;
   text-decoration: none;
 }
-.about-me {
-  align-items: center;
-  display: flex;
-  font-size: 25px;
-  justify-content: space-between;
-  padding: 20px;
-}
+
 .profile-img {
-  border: 3px solid var(--midblue-color);
+  border: 6px solid var(--midblue-color);
   border-radius: 25%;
+  margin-left: 20px;
 }
 
 .Card {
@@ -56,11 +51,11 @@ nav a {
   margin-top: 20px;
 }
 .Card h1 em {
-  color: var(--midblue-color);
-  font-size: 50px;
+  font-size: 6rem;
 }
 .Card h1,
 h2 {
+  font-size: 3rem;
   margin: 30px 25px;
   text-decoration: underline;
   text-decoration-thickness: 7px;
@@ -68,7 +63,6 @@ h2 {
 }
 
 .Card h3 {
-  color: var(--midblue-color);
   margin: 30px 25px;
   font-size: 32px;
 }
@@ -186,13 +180,13 @@ li {
     max-width: 600px;
     min-width: 400px;
   }
-  .Card h2,
-  h3 {
+  .Card h2 {
     font-size: 60px;
+    color: var(--midblue-color);
   }
   .Card h1 em {
     color: var(--midblue-color);
-    font-size: 75px;
+    font-size: 6rem;
   }
   .main-project {
     height: 2000px;
