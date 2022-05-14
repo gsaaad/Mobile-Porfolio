@@ -14,7 +14,7 @@
 
 ### Preview
 
-- ![Screenshot](./Assets/img/Mobile_Portfolio.png)
+- ![Screenshot](./Assets/img/Preview.png)
 
 ### Description
 
