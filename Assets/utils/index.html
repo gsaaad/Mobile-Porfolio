@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <meta name="author" content="Gsaaad" />
+    <meta name="description" content="Mobile-Friendly Portfolio" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="icon" type="image/png" href="./Assets/img/GS.png" />
+
+    <title>George Saad Portfolio</title>
+  </head>
+  <!-- End of Header portion, added most of necessary foundation, including Title, icon, Style CSS, Viewport -->
+  <header>
+    <nav
+      class="flex text-white bg-gradient-to-r from-blue-200 via-blue-300 to-cyan-300 justify-between items-center text-lg md:text-2xl lg:text-3xl xl:text-4xl"
+    >
+      <img
+        src="./Assets/img/GS.png"
+        alt="Logo design of letters G and S representing the author's initials"
+        style="height: 4rem; width: 5rem"
+        class="z-0"
+      />
+
+      <a href="#about-me">About Me</a>
+      <i class="fa-brands fa-buffer"></i>
+      <a href="#projects">Projects</a>
+      <i class="fa-brands fa-buffer"></i>
+      <a href="#contact-me" class="mr-4">Contact Me</a>
+    </nav>
+  </header>
+  <body class="bg-stone-600">
+    <!-- Navbar for Personal, Projects and Contact me sections -->
+
+    <!-- ID added to target this specific element in navigation-->
+
+    <section
+      id="about-me"
+      class="border-b-2 border-t-2 mb-8 border-sky-300 bg-gradient-to-b from-zinc-100 via-blue-800 to-zinc-600"
+    >
+      <h1 class="text-2xl text-gray-600 ml-2 xl:text-3xl xl:font-semibold">
+        HELLO! MY NAME IS
+        <div>
+          <em
+            class="text-4xl text-sky-200 font-semibold sm:text-5xl xl:text-6xl"
+          >
+            GEORGE SAAD
+          </em>
+        </div>
+      </h1>
+      <!-- divided each section as Article, to group similar content -->
+      <article class="ml-2">
+        <div class="flex">
+          <img
+            src="./Assets/img/Avatar_Gsaaad.jpg"
+            alt="Avatar headshot of George Saaad"
+            style="height: 40%; width: 40%; border-radius: 25%"
+            class="border-4 border-double border-cyan-300 drop-shadow-2xl"
+          />
+          <h3
+            class="text-teal-300 ml-4 text-lg font-medium md:text-2xl lg:text-3xl lg:p-8 xl:text-4xl 2xl:text-5xl"
+          >
+            ~Ambitious, hard working and high performance individual, striving
+            to become Full Stack Developer. <br />
+            ~Experienced in HTML5, CSS, BootStrap, Javascript, TailWind CSS
+          </h3>
+        </div>
+        <!-- profile image, with width 1000, fit most of the Media Querries -->
+      </article>
+    </section>
+    <!-- Main card, showing projects. Main project was sized up for Criteria, others were purposely designed smaller -->
+    <!-- ID added to target this specific element in navigation-->
+    <section
+      id="projects"
+      class="border-b-2 border-t-2 mb-8 border-sky-300 bg-gradient-to-b from-zinc-100 via-blue-900 to-teal-700 p-2 flex flex-col items-center text-center"
+    >
+      <h2
+        class="text-2xl text-gray-600 ml-2 border-4 border-double border-cyan-800 w-1/3 bg-sky-200 sm:text-4xl"
+      >
+        PROJECTS
+      </h2>
+      <h3 class="text-4xl text-cyan-400 border-b-4 border-blue-400 mb-4">
+        Horiseon Website for SEO Optimization
+      </h3>
+
+      <a
+        href="https://gsaaad.github.io/Horiseon_SocialSolutionServices/"
+        target="_blank"
+        rel="nofollow"
+      >
+        <img
+          src="./Assets/img/Project_1.png"
+          alt="Author of website displaying their main project, they are working on he Horiseon Website"
+        />
+      </a>
+      <h3
+        class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-full bg-sky-200 sm:text-3xl"
+      >
+        Other Projects in the making!
+      </h3>
+
+      <article class="flex flex-col items-center text-center">
+        <h4
+          class="text-lg text-gray-600 mt-3 border-4 border-double border-cyan-800 w-1/2 bg-sky-200 sm:text-2xl"
+        >
+          Run Buddy Website
+        </h4>
+
+        <a
+          href="https://gsaaad.github.io/run-buddy/"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            src="./Assets/img/run-buddy.png"
+            alt="a project called run buddy designed by author"
+            class="lg:w-screen lg:px-24"
+          />
+        </a>
+      </article>
+
+      <article class="flex flex-col items-center text-center">
+        <h4
+          class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-full bg-sky-200"
+        >
+          DineIn
+        </h4>
+
+        <a
+          href="https://weareteam8.github.io/DineInside/"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            src="./Assets/img/DineIn.png"
+            alt="an application project for buying and delivering food, designed by author"
+            class="xl:h-screen"
+          />
+        </a>
+      </article>
+      <article class="flex flex-col items-center text-center">
+        <h4
+          class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-full bg-sky-200"
+        >
+          Map application
+        </h4>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <img
+            src="./Assets/img/map-application.jpg"
+            alt="an application project for utilizing maps, designed by author"
+          />
+        </a>
+      </article>
+      <article class="flex flex-col items-center text-center">
+        <h4
+          class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-full bg-sky-200"
+        >
+          Robots fighting application
+        </h4>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <img
+            src="./Assets/img/robot-fighting.jpg"
+            alt="an application project for robots fighting, designed by author"
+          />
+        </a>
+      </article>
+    </section>
+    <!-- end of page, footer of contact me through social media! -->
+
+    <!-- ID added to target this specific element in navigation-->
+
+    <footer id="contact-me" class="flex flex-col mx-auto md:w-3/5">
+      <h2
+        class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 bg-sky-200 flex flex-col items-center text-center"
+      >
+        Contact
+      </h2>
+      <h3
+        class="text-2xl text-gray-600 mt-6 border-4 border-double border-cyan-800 w-full bg-sky-200"
+      >
+        Let's Connect and build together😎
+      </h3>
+
+      <article
+        class="border-b-2 border-t-2 mb-8 border-sky-300 bg-gradient-to-b from-teal-200 via-sky-300 to-cyan-400 text-lg font-semibold lg:text-2xl 2xl:text-4xl"
+      >
+        <ul class="flex flex-col p-4">
+          <li>
+            <a
+              href="https://github.com/gsaaad"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-4 hover:animate-ping xl:ml-24"
+            >
+              <img
+                src="./Assets/img/github-icon.png"
+                alt="Github Icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-12 hover:animate-ping xl:ml-32"
+            >
+              <img
+                src="./Assets/img/twitter-icon.png"
+                alt="Twitter Icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-20 hover:animate-ping xl:ml-40"
+            >
+              <img
+                src="./Assets/img/facebook-icon.png"
+                alt="Facebook icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-28 hover:animate-ping xl:ml-48"
+            >
+              <img
+                src="./Assets/img/resume-icon.png"
+                alt="portfolio icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:gsparqcode@gmail.com"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-36 hover:animate-ping xl:ml-56"
+            >
+              <img
+                src="./Assets/img/email-icon.png"
+                alt="Email icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              Email</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/georgesaad7/"
+              target="_blank"
+              rel="nofollow"
+              class="flex items-center ml-44 hover:animate-ping xl:ml-64"
+            >
+              <img
+                src="./Assets/img/linkedin-icon.png"
+                alt="LinkedIn icon"
+                class="border-2 border-sky-300 rounded-xl"
+                style="height: 50px; width: 50px"
+              />
+              LinkedIn</a
+            >
+          </li>
+        </ul>
+      </article>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
+
+<!-- todo Cleaner look, less colors, more contrast -->
+<!-- todo work on margin/padding -> potentially look into re-wireframing -->
+<!-- todo images DO NOT STRETCH! -->
+<!-- todo look into tailwind Card components/clean design -->
+<!-- todo reduce scroll/ work for the user -->
+<!-- todo more intuitive/clean design -->
+
+<!-- todo use ^ lessons for your application designs! -->
