@@ -11,11 +11,20 @@
 }
 /* universal selector basics + some variable colours */
 
+.shape {
+  padding: 5rem;
+  height: 100%;
+  clip-path: polygon(100% 0, 100% 57%, 54% 100%, 0 100%, 0 0);
+  background-color: rgb(180, 197, 27);
+  color: red;
+}
+
 body {
   color: var(--tan-color);
   border-bottom: 5px solid var(--plat-color);
   margin: 2rem;
 }
+
 nav {
   align-items: center;
   background-color: var(--midblue-color);
@@ -34,10 +43,6 @@ nav a {
   font-weight: bolder;
   margin-right: 10px;
   text-decoration: none;
-}
-
-.svg-container {
-  z-index: 0;
 }
 
 .profile-img {
