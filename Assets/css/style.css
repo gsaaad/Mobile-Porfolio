@@ -8,8 +8,10 @@
 .shape {
   position: absolute;
   top: 0px;
-  left: -220px;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  left: -10.75rem;
+  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
   background-image: linear-gradient(
     to left,
 
@@ -18,10 +20,29 @@
     rgb(0, 0, 0)
   );
   transform: rotate(90deg);
-  width: 125vh;
-  height: 100vw;
-  z-index: -1;
+  width: 50em;
+  height: 125vw;
+  z-index: -2;
 }
+.shape2 {
+  position: absolute;
+  top: 40rem;
+  left: -23rem;
+  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+  background-image: linear-gradient(
+    to left,
+
+    rgb(59, 255, 199),
+    rgb(0, 121, 22)
+  );
+  transform: rotate(90deg);
+  width: 75rem;
+  height: 125vw;
+  z-index: -2;
+}
+
 .name {
   color: white;
   font-size: 5rem;
@@ -29,7 +50,7 @@
 }
 
 .title {
-  color: rgb(150, 255, 123);
+  color: rgb(166, 255, 144);
   font-size: 1.5rem;
   text-shadow: 1px 1px 2px black;
 }
