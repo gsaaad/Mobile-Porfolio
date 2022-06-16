@@ -33,15 +33,14 @@
 .shape {
   position: absolute;
   top: 25px;
-  left: -10.5rem;
+  left: -10rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 50em;
@@ -51,15 +50,14 @@
 .shape2 {
   position: absolute;
   top: 40rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -69,15 +67,14 @@
 .shape3 {
   position: absolute;
   top: 95rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -87,14 +84,9 @@
 .shape4 {
   position: absolute;
   top: 150rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-image: linear-gradient(
-    to left,
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
-  );
+  background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
   width: 75rem;
   height: 125vw;
@@ -103,14 +95,9 @@
 .shape5 {
   position: absolute;
   top: 200rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-image: linear-gradient(
-    to left,
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
-  );
+  background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
   width: 75rem;
   height: 125vw;
@@ -119,15 +106,14 @@
 .shape6 {
   position: absolute;
   top: 250rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -137,15 +123,14 @@
 .shape7 {
   position: absolute;
   top: 300rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(6, 236, 171),
-    rgb(3, 138, 100),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -155,14 +140,14 @@
 .shape8 {
   position: absolute;
   top: 350rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(132, 17, 209),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -172,14 +157,14 @@
 .shape9 {
   position: absolute;
   top: 400rem;
-  left: -22.8rem;
+  left: -22.5rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 
   background-image: linear-gradient(
     to left,
 
-    rgb(132, 17, 209),
-    rgb(0, 0, 0)
+    #075b80,
+    #0a4c68
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -194,7 +179,7 @@
 }
 
 .title {
-  color: rgb(166, 255, 144);
+  color: #00aeff;
   font-size: 1.5rem;
   text-shadow: 1px 1px 2px black;
 }
@@ -214,7 +199,7 @@ li {
   position: relative;
   border-radius: 5px;
   cursor: pointer;
-  filter: drop-shadow(0 0 3rem #91fff4);
+  filter: drop-shadow(0 0 1.5rem hsl(207, 100%, 56%));
   z-index: -1;
 }
 .card:before {
@@ -224,10 +209,9 @@ li {
   border-radius: 5px;
   background-image: linear-gradient(
     var(--rotate),
-    #78ff5d,
-    #1ac503,
-    20%,
-    #004b03
+    #67e8f9,
+    #2a63ab 20%,
+    #001842
   );
   position: absolute;
   top: -2%;
@@ -253,4 +237,10 @@ li {
 }
 .projectLink {
   height: 15rem;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
 }

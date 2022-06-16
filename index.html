@@ -21,7 +21,7 @@
 </html>
 <header>
   <nav
-    class="flex text-white border-b-8 border-emerald-900 bg-gradient-to-r from-lime-400 via-green-600 to-emerald-800 justify-between items-center text-lg md:text-2xl lg:text-3xl xl:text-4xl"
+    class="flex text-white border-b-8 border-sky-900 bg-gradient-to-r from-sky-400 via-sky-600 to-sky-800 justify-between items-center text-lg md:text-2xl lg:text-3xl xl:text-4xl"
   >
     <img
       src="./Assets/img/GS.png"
@@ -38,7 +38,7 @@
   </nav>
 </header>
 
-<body class="bg-yellow-400">
+<body class="bg-cyan-200">
   <section class="flex flex-col justify-center text-center pt-16 font-semibold">
     <h1 class="name">George Saad</h1>
     <h2 class="title">Full Stack Developer</h2>
@@ -46,7 +46,7 @@
   </section>
   <section class="flex flex-col justify-center mt-52">
     <h1
-      class="text-5xl text-center font-semibold text-white underline decoration-lime-300"
+      class="text-5xl text-center font-semibold text-white underline decoration-sky-300"
       id="about-me"
     >
       About Me
@@ -55,9 +55,9 @@
       src="./Assets/img/Avatar_Gsaaad.jpg"
       alt=""
       style="width: 80%"
-      class="self-center mt-12 rounded-xl border-4 border-green-800"
+      class="self-center mt-12 rounded-xl border-4 border-sky-600"
     />
-    <p class="text-center mt-4 p-4 font-semibold text-md">
+    <p class="text-center mt-4 p-4 font-semibold text-md text-white">
       Curious Full Stack Developer utilizing my background knowledge in
       Psychology & Neuroscience to build a more intuitive and enhanced user
       experience on applications. Expanding my skills in JavaScript, CSS, HTML,
@@ -77,19 +77,19 @@
     </h1>
 
     <article class="flex flex-col mx-auto mt-12 card">
-      <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-        Hello Google
+      <a href="https://www.google.com">
+        <img src="./Assets/img/DineIn.png" alt="" />
+        <h2 class="title text-center text-2xl">Dine In</h2>
+        <p class="text-white mx-auto text-md">
+          This application fulfills the needs of users at home. Enhance your
+          meals by having the restaurant experience at the comfort of your home.
+          DineIn lets users get random drink from a selection of cocktails, as
+          well as a meal to enjoy that with.
+        </p>
+        <p class="text-white mx-auto text-md mt-4">
+          Stack: HTML, CSS, JavaScript, Tailwind CSS, JQUERY
+        </p>
       </a>
-      <h2 class="title text-center text-2xl">Dine In</h2>
-      <p class="text-white mx-auto text-md">
-        This application fulfills the needs of users at home. Enhance your meals
-        by having the restaurant experience at the comfort of your home. DineIn
-        lets users get random drink from a selection of cocktails, as well as a
-        meal to enjoy that with.
-      </p>
-      <p class="text-white mx-auto text-md mt-4">
-        Stack: HTML, CSS, JavaScript, Tailwind CSS, JQUERY
-      </p>
     </article>
 
     <div class="shape3" />
@@ -189,7 +189,7 @@
   </section>
   <!-- shap8 with 6th project -->
   <section class="mt-72">
-    <h2 class="title text-center skills border-b-2 border-green-300">SKILLS</h2>
+    <h2 class="title text-center skills border-b-2 border-sky-300">SKILLS</h2>
     <div class="skillContainer">
       <ul class="flex flex-col text-white text-center mx-24">
         <li>
@@ -249,42 +249,48 @@
     <div class="shape8" />
   </section>
 
-  <footer id="contact-me" class="flex flex-col mx-auto mt-12 text-green-300">
-    <h2 class="skills text-center">Contact</h2>
-
-    <article>
+  <!-- shape9 with Contact me -->
+  <section class="text-white mt-24 text-lg">
+    <article id="contact-me">
+      <h2 class="skills text-center">Contact</h2>
       <ul class="flex flex-col p-4">
-        <li class="pl-8">
+        <li class="pl-8 mt-8">
           <a href="https://github.com/gsaaad" target="_blank" rel="nofollow">
             <i class="fa-brands fa-github-square fa-3x"></i>
-            Github: Gsaaad
+            https://github.com/gsaaad
           </a>
         </li>
-        <li class="pl-32">
+        <li class="pl-32 mt-8">
+          <a href="mailto:gsparqcode@gmail.com" target="_blank" rel="nofollow">
+            <i class="fa-solid fa-envelope fa-3x"></i>
+            saad.george@live.com</a
+          >
+        </li>
+        <li class="pl-52 mt-8">
           <a href="#" target="_blank" rel="nofollow">
             <i class="fa-solid fa-user-tie fa-3x"></i>
             Resume</a
           >
         </li>
-        <li class="pl-52">
-          <a href="mailto:gsparqcode@gmail.com" target="_blank" rel="nofollow">
-            <i class="fa-solid fa-envelope fa-3x"></i>
-            Email</a
-          >
-        </li>
-        <li class="pl-80">
+
+        <li class="pl-80 mt-8">
           <a
             href="https://www.linkedin.com/in/georgesaad7/"
             target="_blank"
             rel="nofollow"
           >
             <i class="fa-brands fa-linkedin fa-3x"></i>
-            LinkedIn</a
-          >
+          </a>
         </li>
       </ul>
     </article>
     <div class="shape9"></div>
+  </section>
+
+  <footer
+    class="flex text-white bg-gradient-to-r from-sky-500 via-sky-700 to-sky-800 justify-between items-center text-lg md:text-2xl lg:text-3xl xl:text-4xl"
+  >
+    <p class="text-center mx-auto">&copy; 2022 Copyright George Saad</p>
   </footer>
   <script src="https://cdn.tailwindcss.com"></script>
 </body>
