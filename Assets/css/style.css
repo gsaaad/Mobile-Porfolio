@@ -57,8 +57,9 @@
   background-image: linear-gradient(
     to left,
 
-    rgb(59, 255, 199),
-    rgb(0, 121, 22)
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -74,8 +75,9 @@
   background-image: linear-gradient(
     to left,
 
-    rgb(3, 255, 183),
-    rgb(0, 99, 18)
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -87,7 +89,12 @@
   top: 150rem;
   left: -22.8rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-image: linear-gradient(to left, rgb(3, 255, 183), rgb(0, 99, 18));
+  background-image: linear-gradient(
+    to left,
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
+  );
   transform: rotate(90deg);
   width: 75rem;
   height: 125vw;
@@ -98,7 +105,12 @@
   top: 200rem;
   left: -22.8rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-image: linear-gradient(to left, rgb(3, 255, 183), rgb(0, 99, 18));
+  background-image: linear-gradient(
+    to left,
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
+  );
   transform: rotate(90deg);
   width: 75rem;
   height: 125vw;
@@ -113,8 +125,9 @@
   background-image: linear-gradient(
     to left,
 
-    rgb(3, 255, 183),
-    rgb(0, 99, 18)
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -130,8 +143,9 @@
   background-image: linear-gradient(
     to left,
 
-    rgb(3, 255, 183),
-    rgb(0, 99, 18)
+    rgb(6, 236, 171),
+    rgb(3, 138, 100),
+    rgb(0, 0, 0)
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -147,8 +161,25 @@
   background-image: linear-gradient(
     to left,
 
-    rgb(3, 255, 183),
-    rgb(0, 99, 18)
+    rgb(132, 17, 209),
+    rgb(0, 0, 0)
+  );
+  transform: rotate(90deg);
+  width: 75rem;
+  height: 125vw;
+  z-index: -2;
+}
+.shape9 {
+  position: absolute;
+  top: 400rem;
+  left: -22.8rem;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+  background-image: linear-gradient(
+    to left,
+
+    rgb(132, 17, 209),
+    rgb(0, 0, 0)
   );
   transform: rotate(90deg);
   width: 75rem;
@@ -166,6 +197,13 @@
   color: rgb(166, 255, 144);
   font-size: 1.5rem;
   text-shadow: 1px 1px 2px black;
+}
+.skills {
+  font-size: 4rem;
+  text-shadow: 1px 1px 2px black;
+}
+li {
+  font-size: 1.5rem;
 }
 
 .card {
@@ -216,5 +254,3 @@
 .projectLink {
   height: 15rem;
 }
-
-/* animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; */
