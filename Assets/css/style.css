@@ -30,12 +30,13 @@
 }
 body {
   width: 130%;
+  background-image: linear-gradient(to bottom, #13cde6, #003247);
 }
 
 .shape {
   position: absolute;
   top: 10px;
-  left: -2.4rem;
+  left: -2.45rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -43,11 +44,10 @@ body {
   height: 130vw;
   z-index: -2;
 }
-
 .shape2 {
   position: absolute;
   top: 40rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -58,7 +58,7 @@ body {
 .shape3 {
   position: absolute;
   top: 110rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -69,7 +69,7 @@ body {
 .shape4 {
   position: absolute;
   top: 165rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -80,7 +80,7 @@ body {
 .shape5 {
   position: absolute;
   top: 225rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -91,7 +91,7 @@ body {
 .shape6 {
   position: absolute;
   top: 280rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -102,7 +102,7 @@ body {
 .shape7 {
   position: absolute;
   top: 340rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -113,7 +113,7 @@ body {
 .shape8 {
   position: absolute;
   top: 400rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -124,7 +124,7 @@ body {
 .shape9 {
   position: absolute;
   top: 460rem;
-  left: -30rem;
+  left: -29.95rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   background-image: linear-gradient(to left, #075b80, #0a4c68);
   transform: rotate(90deg);
@@ -205,21 +205,223 @@ footer {
   width: 100%;
 }
 
-/* @media (min-width: 550px) {
-  /*CSS for smaller width screens*/
-/* .shape {
-  position: absolute;
-  top: 20px;
-  left: 36px;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-image: linear-gradient(to left, #075b80, #0a4c68);
-  transform: rotate(90deg);
-  width: 30em;
-  height: 100vw;
-  z-index: -2;
+/* ? 500 px  */
+@media (min-width: 500px) {
+  .shape {
+    position: absolute;
+    top: 5rem;
+    left: -2.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 45em;
+    height: 130vw;
+    z-index: -2;
+  }
+  .name {
+    margin-top: 65px;
+  }
+  #about-me {
+    margin-top: 10px;
+  }
+  .shape2 {
+    position: absolute;
+    top: 55srem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape3 {
+    position: absolute;
+    top: 110rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape4 {
+    position: absolute;
+    top: 165rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape5 {
+    position: absolute;
+    top: 225rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape6 {
+    position: absolute;
+    top: 280rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape7 {
+    position: absolute;
+    top: 340rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape8 {
+    position: absolute;
+    top: 400rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape9 {
+    position: absolute;
+    top: 460rem;
+    left: -27.1rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  #contact-me {
+    margin-top: 15rem;
+  }
 }
-}  */
+/*? 550px */
 
+@media (min-width: 550px) {
+  /*CSS for smaller width screens*/
+  .shape {
+    position: absolute;
+    top: -20px;
+    left: 2.3rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 40em;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape2 {
+    position: absolute;
+    top: 40rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape3 {
+    position: absolute;
+    top: 110rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape4 {
+    position: absolute;
+    top: 165rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape5 {
+    position: absolute;
+    top: 225rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape6 {
+    position: absolute;
+    top: 280rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape7 {
+    position: absolute;
+    top: 340rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape8 {
+    position: absolute;
+    top: 400rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+  .shape9 {
+    position: absolute;
+    top: 460rem;
+    left: -25.2rem;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-image: linear-gradient(to left, #075b80, #0a4c68);
+    transform: rotate(90deg);
+    width: 95rem;
+    height: 130vw;
+    z-index: -2;
+  }
+}
+
+/* ? previous shaped shapes */
 /*
 .shape3 {
   position: absolute;
