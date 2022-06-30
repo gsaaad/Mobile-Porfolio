@@ -132,7 +132,12 @@ body {
   height: 130vw;
   z-index: -2;
 }
-
+.otherProjects {
+  margin-top: 25.5rem;
+}
+#description {
+  padding: 0px 140px;
+}
 .name {
   color: white;
   font-size: 5rem;
@@ -434,6 +439,10 @@ footer {
     width: 40em;
     height: 130vw;
   }
+  .title {
+    font-size: 33px;
+    margin-bottom: 5px;
+  }
 
   .shape2 {
     top: 45rem;
@@ -465,6 +474,9 @@ footer {
 
     width: 95rem;
     height: 130vw;
+  }
+  .card {
+    margin-top: 0.6rem;
   }
   .shape6 {
     top: 280rem;
@@ -504,65 +516,78 @@ footer {
   }
   .shape {
     left: 8.5rem;
-
+    top: -4rem;
     width: 40em;
     height: 130vw;
   }
+  .name {
+    margin-top: 10rem;
+  }
+  .card {
+    width: 27rem;
+    height: 33.5rem;
+    font-size: 21.5px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 375px;
+  }
 
   .shape2 {
-    top: 45rem;
-    left: -19rem;
+    top: 42rem;
+    left: -34rem;
 
-    width: 95rem;
+    width: 125rem;
     height: 130vw;
   }
   #projects {
     margin-top: 275px;
   }
+  #description {
+    padding: 0px 150px;
+  }
   .shape3 {
-    top: 115rem;
+    top: 120rem;
     left: -19rem;
-
     width: 95rem;
     height: 130vw;
   }
   .shape4 {
-    top: 165rem;
+    top: 175rem;
     left: -19rem;
-
     width: 95rem;
     height: 130vw;
   }
   .shape5 {
-    top: 225rem;
+    top: 230rem;
     left: -19rem;
-
     width: 95rem;
     height: 130vw;
   }
   .shape6 {
-    top: 280rem;
+    top: 285rem;
     left: -19rem;
 
     width: 95rem;
     height: 130vw;
   }
   .shape7 {
-    top: 340rem;
+    top: 345rem;
     left: -19rem;
 
     width: 95rem;
     height: 130vw;
   }
   .shape8 {
-    top: 400rem;
+    top: 405rem;
     left: -19rem;
 
     width: 95rem;
     height: 130vw;
   }
   .skillsSection {
-    margin-top: 200px;
+    margin-top: 275px;
   }
   .shape9 {
     top: 460rem;
@@ -575,70 +600,96 @@ footer {
 /* ? 750px */
 @media (min-width: 750px) {
   /*CSS for smaller width screens*/
+  .name {
+    margin-top: 10rem;
+  }
+
+  .name {
+    margin-top: 10rem;
+  }
+  .card {
+    width: 27rem;
+    height: 33.5rem;
+    font-size: 21.5px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 350px;
+  }
 
   .shape {
-    left: 10.53rem;
+    left: 10.71rem;
+    top: -4rem;
     width: 40em;
     height: 130vw;
   }
-
   .shape2 {
-    top: 45rem;
-    left: -17rem;
-    width: 95rem;
+    top: 42rem;
+    left: -31.8rem;
+
+    width: 125rem;
     height: 130vw;
   }
   #projects {
-    margin-top: 275px;
+    margin-top: 200px;
+  }
+  #description {
+    padding: 0px 170px;
   }
   .shape3 {
-    top: 115rem;
-    left: -17rem;
+    top: 120rem;
+    left: -16.8rem;
     width: 95rem;
     height: 130vw;
   }
   .shape4 {
-    top: 165rem;
-    left: -17rem;
+    top: 175rem;
+    left: -16.8rem;
     width: 95rem;
     height: 130vw;
   }
   .shape5 {
-    top: 225rem;
-    left: -17rem;
+    top: 230rem;
+    left: -16.8rem;
     width: 95rem;
     height: 130vw;
   }
   .shape6 {
-    top: 280rem;
-    left: -17rem;
+    top: 285rem;
+    left: -16.8rem;
+
     width: 95rem;
     height: 130vw;
   }
   .shape7 {
-    top: 340rem;
-    left: -17rem;
+    top: 345rem;
+    left: -16.8rem;
+
     width: 95rem;
     height: 130vw;
   }
   .shape8 {
-    top: 400rem;
-    left: -17rem;
+    top: 405rem;
+    left: -16.8rem;
+
     width: 95rem;
     height: 130vw;
   }
   .skillsSection {
-    margin-top: 200px;
+    margin-top: 275px;
   }
   .shape9 {
     top: 460rem;
-    left: -17rem;
+    left: -16.8rem;
+
     width: 95rem;
     height: 130vw;
   }
 }
-/* ? 800px */
-@media (min-width: 800px) {
+
+/* ? 850epx */
+@media (min-width: 850px) {
   /*CSS for smaller width screens*/
 
   .shape {
