@@ -687,71 +687,442 @@ footer {
     height: 130vw;
   }
 }
-
-/* ? 850epx */
-@media (min-width: 850px) {
+/* ? 800px */
+@media (min-width: 800px) {
   /*CSS for smaller width screens*/
+  .name {
+    margin-top: 10rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 265px;
+  }
 
   .shape {
-    top: -200px;
-    left: 12.59rem;
+    left: 12.6rem;
+    top: -8rem;
     width: 40em;
     height: 130vw;
   }
-
   .shape2 {
-    top: 45rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 42rem;
+    left: -29.9rem;
+
+    width: 125rem;
     height: 130vw;
   }
   #projects {
-    margin-top: 550px;
+    margin-top: 200px;
+  }
+  #description {
+    padding: 0px 170px;
   }
   .shape3 {
-    top: 150rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 120rem;
+    left: -14.8rem;
+    width: 95rem;
     height: 130vw;
   }
   .shape4 {
-    top: 250rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 175rem;
+    left: -14.8rem;
+    width: 95rem;
     height: 130vw;
   }
   .shape5 {
-    top: 350rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 230rem;
+    left: -14.8rem;
+    width: 95rem;
     height: 130vw;
   }
   .shape6 {
-    top: 450rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 285rem;
+    left: -14.8rem;
+
+    width: 95rem;
     height: 130vw;
   }
   .shape7 {
-    top: 550rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 345rem;
+    left: -14.8rem;
+
+    width: 95rem;
     height: 130vw;
   }
   .shape8 {
-    top: 650rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 405rem;
+    left: -14.8rem;
+
+    width: 95rem;
     height: 130vw;
   }
   .skillsSection {
-    margin-top: 200px;
+    margin-top: 400px;
   }
   .shape9 {
-    top: 750rem;
-    left: -42.5rem;
-    width: 150rem;
+    top: 460rem;
+    left: -14.8rem;
+
+    width: 95rem;
     height: 130vw;
+  }
+}
+/* ? 850px */
+@media (min-width: 850px) {
+  /*CSS for smaller width screens*/
+  .name {
+    margin-top: 15rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+  .about {
+    margin-top: 200px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 265px;
+  }
+
+  .shape {
+    left: 14.84rem;
+    top: -8rem;
+    width: 40em;
+    height: 130vw;
+  }
+  .shape2 {
+    top: 42rem;
+    left: -27.7rem;
+
+    width: 125rem;
+    height: 130vw;
+  }
+  #projects {
+    margin-top: 110px;
+  }
+  #description {
+    padding: 0px 250px;
+  }
+  .shape3 {
+    top: 120rem;
+    left: -12.7rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape4 {
+    top: 175rem;
+    left: -12.7rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape5 {
+    top: 230rem;
+    left: -12.7rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape6 {
+    top: 285rem;
+    left: -12.7rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape7 {
+    top: 345rem;
+    left: -12.7rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape8 {
+    top: 405rem;
+    left: -12.7rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .skillsSection {
+    margin-top: 250px;
+  }
+  .shape9 {
+    top: 460rem;
+    left: -12.7rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+}
+
+/* ? 900px */
+@media (min-width: 900px) {
+  /*CSS for smaller width screens*/
+  .name {
+    margin-top: 15rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+  .about {
+    margin-top: 200px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 265px;
+  }
+
+  .shape {
+    left: 16.65rem;
+    top: -9.5rem;
+    width: 40em;
+    height: 130vw;
+  }
+  .shape2 {
+    top: 42rem;
+    left: -25.9rem;
+    width: 125rem;
+    height: 130vw;
+  }
+  #projects {
+    margin-top: 110px;
+  }
+  #description {
+    padding: 0px 250px;
+  }
+  .shape3 {
+    top: 120rem;
+    left: -10.9rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape4 {
+    top: 175rem;
+    left: -10.9rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape5 {
+    top: 230rem;
+    left: -10.9rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape6 {
+    top: 285rem;
+    left: -10.9rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape7 {
+    top: 345rem;
+    left: -10.9rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape8 {
+    top: 405rem;
+    left: -10.9rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .skillsSection {
+    margin-top: 250px;
+  }
+  .shape9 {
+    top: 460rem;
+    left: -10.9rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+}
+
+/* ? 950px */
+@media (min-width: 950px) {
+  /*CSS for smaller width screens*/
+  .name {
+    margin-top: 15rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+  .about {
+    margin-top: 200px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 265px;
+  }
+
+  .shape {
+    left: 18.96rem;
+    top: -10rem;
+    width: 40em;
+    height: 130vw;
+  }
+  .shape2 {
+    top: 42rem;
+    left: -23.59rem;
+    width: 125rem;
+    height: 130vw;
+  }
+  #projects {
+    margin-top: 110px;
+  }
+  #description {
+    padding: 0px 250px;
+  }
+  .shape3 {
+    top: 120rem;
+    left: -8.59rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape4 {
+    top: 175rem;
+    left: -8.59rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape5 {
+    top: 230rem;
+    left: -8.59rem;
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape6 {
+    top: 285rem;
+    left: -8.59rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape7 {
+    top: 345rem;
+    left: -8.59rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .shape8 {
+    top: 405rem;
+    left: -8.59rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+  .skillsSection {
+    margin-top: 250px;
+  }
+  .shape9 {
+    top: 460rem;
+    left: -8.59rem;
+
+    width: 95rem;
+    height: 130vw;
+  }
+}
+
+/* ? 1000px */
+@media (min-width: 1000px) {
+  /*CSS for smaller width screens*/
+  .name {
+    margin-top: 15rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+  .about {
+    margin-top: 200px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 330px;
+  }
+
+  .shape {
+    left: 21rem;
+    top: -14rem;
+    width: 40em;
+    height: 130vw;
+  }
+  .shape2 {
+    top: 45rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  #projects {
+    margin-top: 500px;
+  }
+  #description {
+    padding: 0px 250px;
+  }
+  .shape3 {
+    top: 160rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape4 {
+    top: 220rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape5 {
+    top: 280rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape6 {
+    top: 340rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape7 {
+    top: 400rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape8 {
+    top: 460rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape9 {
+    top: 520rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .skillsSection {
+    margin-top: 250px;
   }
 }
 
