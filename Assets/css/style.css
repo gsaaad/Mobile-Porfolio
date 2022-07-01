@@ -1126,6 +1126,90 @@ footer {
   }
 }
 
+/* ? 1050px */
+@media (min-width: 1050px) {
+  /*CSS for smaller width screens*/
+  .name {
+    margin-top: 15rem;
+  }
+  .card {
+    width: 27rem;
+    height: 38rem;
+    font-size: 21.5px;
+  }
+  .about {
+    margin-top: 200px;
+  }
+
+  .otherProjects {
+    font-size: 21px;
+    margin-top: 330px;
+  }
+
+  .shape {
+    left: 22.78rem;
+    top: -14rem;
+    width: 40em;
+    height: 130vw;
+  }
+  .shape2 {
+    top: 45rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  #projects {
+    margin-top: 500px;
+  }
+  #description {
+    padding: 0px 250px;
+  }
+  .shape3 {
+    top: 160rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape4 {
+    top: 220rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape5 {
+    top: 280rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape6 {
+    top: 340rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape7 {
+    top: 400rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape8 {
+    top: 460rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .shape9 {
+    top: 520rem;
+    left: -36.5rem;
+    width: 155rem;
+    height: 130vw;
+  }
+  .skillsSection {
+    margin-top: 250px;
+  }
+}
 /* ? previous shaped shapes */
 /*
 .shape3 {
